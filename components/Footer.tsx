@@ -1,6 +1,6 @@
 "use client";
 
-import { Zap, Twitter, Linkedin, Github, Mail } from "lucide-react";
+import { Zap, X, Link2, Code2, Mail } from "lucide-react";
 import { FOOTER_LINKS } from "@/lib/data";
 
 export default function Footer() {
@@ -98,9 +98,9 @@ export default function Footer() {
             {/* Social icons */}
             <div style={{ display: "flex", gap: 12 }}>
               {[
-                { icon: <Twitter size={16} />, label: "Twitter" },
-                { icon: <Linkedin size={16} />, label: "LinkedIn" },
-                { icon: <Github size={16} />, label: "GitHub" },
+                { icon: <X size={16} />, label: "Twitter" },
+                { icon: <Link2 size={16} />, label: "LinkedIn" },
+                { icon: <Code2 size={16} />, label: "GitHub" },
                 { icon: <Mail size={16} />, label: "Email" },
               ].map((social) => (
                 <button

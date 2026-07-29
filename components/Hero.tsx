@@ -247,9 +247,9 @@ export default function Hero({ onEnquire }: HeroProps) {
 
       {/* Scroll indicator */}
       <motion.button
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
+        initial={{ opacity: 0, y: 0 }}
+        animate={{ opacity: 1, y: [0, 8, 0] }}
+        transition={{ delay: 1.2, duration: 2, repeat: Infinity, ease: "easeInOut" }}
         onClick={scrollDown}
         style={{
           position: "absolute",
@@ -265,8 +265,6 @@ export default function Hero({ onEnquire }: HeroProps) {
           alignItems: "center",
           gap: 4,
         }}
-        animate={{ y: [0, 8, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
         <span style={{ fontSize: 11, letterSpacing: "2px", textTransform: "uppercase" }}>
           Scroll
