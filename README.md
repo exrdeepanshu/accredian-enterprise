@@ -6,7 +6,7 @@ A high-fidelity, full-stack clone of [enterprise.accredian.com](https://enterpri
 
 ## 🔗 Live Demo
 
-> **Vercel Deployment:** [your-deployment-url.vercel.app](https://your-deployment-url.vercel.app)  
+> **Vercel Deployment:** [your-deployment-url.vercel.app](https://vercel.com/exrdeepanshus-projects/accredian-enterprise)  
 > *(Replace with your URL after deploying)*
 
 ---
